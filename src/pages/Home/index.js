@@ -6,9 +6,10 @@ export default class Home extends React.Component {
   render() {
     return (
       <GistCtnr>
-        {({gists, getGistFromUserName})=>{
-          console.log("dsadsa", gists)
-          return <GistWrapper gists={gists} getGistFromUserName={getGistFromUserName}  />;
+        {({gists, getGistFromUserName, getLastThreeForkFromGistId})=>{
+          return <GistWrapper gists={gists}
+                    getGistFromUserName={getGistFromUserName}
+                    getLastThreeForkFromGistId={getLastThreeForkFromGistId}  />;
         }}
       </GistCtnr>
     );

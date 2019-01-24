@@ -8,7 +8,8 @@ export default class GistWrapper extends React.Component {
     return(
       <div className="gist-ctnr">
         <SearchBox handleSearch={(value)=>this.props.getGistFromUserName(value)} />
-        <GistList gists={this.props.gists} />
+        <GistList gists={this.props.gists}
+          handleShowForkDetails={(gistid, index) => this.props.getLastThreeForkFromGistId(gistid, index)} />
       </div>
     );
   }

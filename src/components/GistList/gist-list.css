@@ -34,3 +34,32 @@
   margin-left: 3px;
   width: 30px
 }
+
+.fork-list {
+  margin-top: 10px;
+}
+
+.fork-list button {
+  background-color: #7fc77f;
+  color: #ffffff;
+}
+
+.fork-list .info{
+  color: red;
+  font-size: 11px;
+}
+
+.fork-list .fork-avatar-list {
+  margin-top: 9px;
+}
+
+.fork-list .fork-avatar-list img {
+  border-radius: 3px;
+  height: 30px;
+  margin-left: 3px;
+  width: 30px;
+}
+
+.fork-list .fork-avatar-list a{
+  margin: 7px;
+}

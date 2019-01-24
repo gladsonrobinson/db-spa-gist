@@ -1,1 +1,2 @@
 export const SET_GIST_LIST = 'SET_GIST_LIST';
+export const UPDATE_FORK_DETAILS = 'UPDATE_FORK_DETAILS';
