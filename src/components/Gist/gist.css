@@ -1,0 +1,10 @@
+.gist-ctnr {
+  margin: 40px auto 0;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .gist-ctnr {
+    max-width: 1170px;
+  }
+}

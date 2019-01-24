@@ -1,0 +1,1 @@
+export const SET_GIST_LIST = 'SET_GIST_LIST';

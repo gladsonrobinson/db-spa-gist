@@ -1,0 +1,31 @@
+.gist-search-wrap {
+  width: 100%;
+  margin: 40px auto 0;
+}
+
+@media (min-width: 1200px) {
+  .gist-search-wrap {
+    width: 59%;
+  }
+}
+
+.gist-search-wrap .search {
+  height: 40px;
+}
+
+.gist-search-wrap .search-txt {
+  width: 67%;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+.gist-search-wrap .search-btn {
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 22px;
+}

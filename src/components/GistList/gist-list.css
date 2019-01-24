@@ -1,0 +1,36 @@
+.gist-lists-wrap {
+  width: 100%;
+  margin: 40px auto;
+}
+
+@media (min-width: 1200px) {
+  .gist-lists-wrap {
+    width: 49%;
+  }
+}
+
+.gist-lists-wrap .gist-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+  border-bottom: 1px dashed #898a8c5c;
+}
+
+.gist-lists-wrap .gist-details .desc {
+  margin-bottom: 5px;
+  margin-top: 4px;
+  font-size: 17px;
+}
+
+.gist-lists-wrap .gist-list .user-avatar .user-name {
+  padding-left: 7px;
+}
+
+.gist-lists-wrap .gist-list .user-avatar img {
+  border-radius: 3px;
+  height: 30px;
+  margin-left: 3px;
+  width: 30px
+}
