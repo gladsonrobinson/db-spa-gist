@@ -1,3 +1,3 @@
-import Gist from './Gist';
+import GistWrapper from './GistWrapper';
 
-export {Gist};
+export {GistWrapper};

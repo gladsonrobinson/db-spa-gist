@@ -3,7 +3,7 @@ import SearchBox from './../SearchBox';
 import GistList from './../GistList';
 import './gist.css';
 
-export default class Gist extends React.Component {
+export default class GistWrapper extends React.Component {
   render() {
     return(
       <div className="gist-ctnr">

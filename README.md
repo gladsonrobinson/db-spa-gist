@@ -14,7 +14,7 @@ Its a SPA application uses Gist apis to search the gist based on username
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm install` and `npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
